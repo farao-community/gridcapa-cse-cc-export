@@ -10,12 +10,12 @@
         <version>1.4.0</version>
     </parent>
 
-    <artifactId>gridcapa-cse-export</artifactId>
+    <artifactId>gridcapa-cse-cc-export</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
-    <name>GridCapa CSE cc export</name>
-    <description>A full suite to perform capacity calculations on CSE export corner</description>
+    <name>GridCapa CSE CC export</name>
+    <description>Application to perform CSE CC export corner computation</description>
 
     <scm>
         <connection>scm:git:https://github.com/farao-community/gridcapa-cse-cc-export.git</connection>
@@ -24,8 +24,8 @@
     </scm>
 
     <modules>
-        <module>cse-export-runner-api</module>
-        <module>cse-export-runner-app</module>
+        <module>cse-cc-export-runner-api</module>
+        <module>cse-cc-export-runner-app</module>
     </modules>
 
     <properties>

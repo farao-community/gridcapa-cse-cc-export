@@ -6,11 +6,13 @@
 
     <parent>
         <groupId>com.farao-community.farao</groupId>
-        <artifactId>gridcapa-cse-export</artifactId>
+        <artifactId>gridcapa-cse-cc-export</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>cse-export-runner-app</artifactId>
+    <artifactId>gridcapa-cse-cc-export-app</artifactId>
+    <name>GridCapa CSE CC export runner application</name>
+    <description>Application that performs export capacity calculation on CSE zone</description>
 
     <build>
         <plugins>
