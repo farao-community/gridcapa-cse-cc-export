@@ -15,7 +15,7 @@
     <packaging>pom</packaging>
 
     <name>GridCapa CSE CC export</name>
-    <description>Application to perform CSE CC export corner computation</description>
+    <description>Application that performs CSE CC export corner computation</description>
 
     <scm>
         <connection>scm:git:https://github.com/farao-community/gridcapa-cse-cc-export.git</connection>

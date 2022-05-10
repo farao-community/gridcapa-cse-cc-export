@@ -4,10 +4,10 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/.
  */
-package com.farao_community.farao.cse_export_runner.app.services;
+package com.farao_community.farao.cse.export_runner.app.services;
 
-import com.farao_community.farao.cse_export_runner.api.exceptions.CseInvalidDataException;
-import com.farao_community.farao.cse_export_runner.app.configurations.UrlWhitelistConfiguration;
+import com.farao_community.farao.cse.export_runner.app.configurations.UrlWhitelistConfiguration;
+import com.farao_community.farao.cse.runner.api.exception.CseInvalidDataException;
 import org.springframework.stereotype.Component;
 
 import java.io.IOException;

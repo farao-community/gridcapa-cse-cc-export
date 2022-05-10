@@ -4,10 +4,10 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/.
  */
-package com.farao_community.farao.cse_export_runner.app.services;
+package com.farao_community.farao.cse.export_runner.app.services;
 
 import com.farao_community.farao.cse.network_processing.busbar_change.BusBarChangeProcessor;
-import com.farao_community.farao.cse_export_runner.api.exceptions.CseInvalidDataException;
+import com.farao_community.farao.cse.runner.api.exception.CseInvalidDataException;
 import com.farao_community.farao.data.crac_api.Crac;
 import com.farao_community.farao.data.crac_creation.creator.api.CracCreators;
 import com.farao_community.farao.data.crac_creation.creator.api.parameters.CracCreationParameters;
